@@ -33,7 +33,7 @@ function App() {
             </div>
           )}
           <div className={`dark:bg-main-bg bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`}>
-            Side Bar Test
+            Side Bar Test Page
           </div>
         </div>
       </BrowserRouter>
