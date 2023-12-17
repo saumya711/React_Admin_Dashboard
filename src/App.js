@@ -40,7 +40,30 @@ function App() {
 
           <div>
             <Routes>
+              {/* Dashboard */}
               <Route path='/' element="ECommerce"/>
+              <Route path='/ecommerce' element="ECommerce"/>
+
+              {/* Pages */}
+              <Route path='/orders' element="Orders"/>
+              <Route path='/employees' element="Employees"/>
+              <Route path='/customers' element="Customers"/>
+
+              {/* Apps */}
+              <Route path='/kanban' element="Kanban"/>
+              <Route path='/editor' element="Editor"/>
+              <Route path='/calendar' element="Calendar"/>
+              <Route path='/color-picker' element="ColorPicker"/>
+
+              {/* Charts */}
+              <Route path='/line-chart' element="LineChart"/>
+              <Route path='/area-chart' element="AreaChart"/>
+              <Route path='/bar-chart' element="BarChart"/>
+              <Route path='/pie-chart' element="PieChart"/>
+              <Route path='/financial' element="Financial"/>
+              <Route path='/color-mapping' element="ColorMapping"/>
+              <Route path='/pyramid' element="Pyramid"/>
+              <Route path='/stacked' element="Stacked"/>
             </Routes>
           </div>
         </div>
