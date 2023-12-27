@@ -10,6 +10,10 @@ import avatar from '../data/avatar.jpg';
 import { Cart, Chat, Notification, UserProfile } from '.';
 import { useStateContext } from '../contexts/ContextProvider';
 
+const NavButton = ({ title }) => {
+  //
+}
+
 const Navbar = () => {
   const { activeMenu, setActiveMenu } = useStateContext();
   return (
