@@ -65,9 +65,8 @@ const ECommerce = () => {
             <p className='font-semibold text-xl'>Revenue Updates</p>
             <div className='flex items-center gap-4'>
               <p>
-                <span>
-                  <GoDot/>
-                </span>
+                <span><GoDot/></span>
+                <span>Expenses</span>
               </p>
             </div>
           </div>
