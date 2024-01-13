@@ -11,7 +11,7 @@ import {
 import { useStateContext } from "../contexts/ContextProvider";
 import { GoDot } from "react-icons/go";
 
-const ECommerce = () => {
+const EcomDashboard = () => {
   return (
     <div className="mt-24">
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
@@ -126,4 +126,4 @@ const ECommerce = () => {
   );
 };
 
-export default ECommerce;
+export default EcomDashboard;
