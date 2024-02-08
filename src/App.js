@@ -20,7 +20,7 @@ import {
   ColorMapping,
   ColorPicker,
   Editor,
-  LineChart
+  Line
 } from './pages';
 
 import { useStateContext } from './contexts/ContextProvider';
@@ -83,7 +83,7 @@ function App() {
                 <Route path='/color-picker' element={<ColorPicker />}/>
 
                 {/* Charts */}
-                <Route path='/line-chart' element={<LineChart/>}/>
+                <Route path='/line-chart' element={<Line/>}/>
                 <Route path='/area-chart' element={<AreaChart />}/>
                 <Route path='/bar-chart' element={<BarChart />}/>
                 <Route path='/pie-chart' element={<PieChart />}/>
