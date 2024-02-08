@@ -10,7 +10,7 @@ export { default as AreaChart } from './Charts/AreaChart';
 export { default as BarChart } from './Charts/BarChart';
 export { default as ColorMapping } from './Charts/ColorMapping';
 export { default as Financial } from './Charts/Financial';
-export { default as LineChart } from './Charts/LineChart';
+export { default as Line } from './Charts/Line';
 export { default as PieChart } from './Charts/PieChart';
 export { default as Pyramid } from './Charts/Pyramid';
 export { default as Stacked } from './Charts/Stacked';
