@@ -83,10 +83,10 @@ function App() {
                 <Route path='/color-picker' element={<ColorPicker />}/>
 
                 {/* Charts */}
-                <Route path='/line-chart' element={<Line/>}/>
-                <Route path='/area-chart' element={<AreaChart />}/>
-                <Route path='/bar-chart' element={<BarChart />}/>
-                <Route path='/pie-chart' element={<PieChart />}/>
+                <Route path='/line' element={<Line />}/>
+                <Route path='/area' element={<AreaChart />}/>
+                <Route path='/bar' element={<BarChart />}/>
+                <Route path='/pie' element={<PieChart />}/>
                 <Route path='/financial' element={<Financial />}/>
                 <Route path='/color-mapping' element={<ColorMapping />}/>
                 <Route path='/pyramid' element={<Pyramid />}/>

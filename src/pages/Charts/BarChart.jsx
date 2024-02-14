@@ -3,7 +3,7 @@ import React from 'react'
 const BarChart = () => {
   return (
     <div>
-      BarChart
+      Bar Chart
     </div>
   )
 }
