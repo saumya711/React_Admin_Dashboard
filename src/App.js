@@ -15,7 +15,7 @@ import {
   Kanban,
   AreaChart,
   BarChart,
-  PieChart,
+  Pie,
   Financial,
   ColorMapping,
   ColorPicker,
@@ -86,7 +86,7 @@ function App() {
                 <Route path='/line' element={<Line />}/>
                 <Route path='/area' element={<AreaChart />}/>
                 <Route path='/bar' element={<BarChart />}/>
-                <Route path='/pie' element={<PieChart />}/>
+                <Route path='/pie' element={<Pie />}/>
                 <Route path='/financial' element={<Financial />}/>
                 <Route path='/color-mapping' element={<ColorMapping />}/>
                 <Route path='/pyramid' element={<Pyramid />}/>
